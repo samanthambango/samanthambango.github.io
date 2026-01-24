@@ -1,0 +1,171 @@
+/* Base */
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+/* En-tête */
+header {
+    background-color: #0f172a;
+    color: white;
+    padding: 60px 20px 50px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.6em;
+    font-weight: 600;
+}
+
+header h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    color: #c7d2fe;
+}
+
+header .search {
+    margin-top: 18px;
+    font-size: 1.05em;
+    color: #93c5fd;
+    font-weight: 500;
+}
+
+/* Boutons du header */
+.buttons {
+    margin-top: 30px;
+}
+
+.buttons a {
+    display: inline-block;
+    margin: 6px;
+    padding: 12px 22px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.buttons a:hover {
+    background-color: #1d4ed8;
+    transform: translateY(-2px);
+}
+
+.buttons .disabled {
+    background-color: #9ca3af;
+    cursor: not-allowed;
+    opacity: 0.8;
+}
+
+/* Contenu principal */
+main {
+    max-width: 950px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+/* Sections générales */
+section {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 35px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+section h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    border-bottom: 2px solid #e5e7eb;
+    padding-bottom: 8px;
+    color: #111827;
+}
+
+/* COMPÉTENCES */
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 25px;
+}
+
+.skill-group h4 {
+    margin-bottom: 8px;
+    font-size: 1.05em;
+    color: #2563eb;
+}
+
+.skill-group p {
+    margin: 0;
+    color: #374151;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+
+/* Projets */
+.project {
+    margin-top: 30px;
+    padding-left: 10px;
+    border-left: 4px solid #2563eb;
+}
+
+.project h4 {
+    margin-bottom: 10px;
+    color: #2563eb;
+    font-size: 1.1em;
+}
+
+.project p {
+    margin: 8px 0;
+    text-align: justify;
+}
+
+.project em {
+    color: #374151;
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Section CV */
+.cv-section {
+    text-align: center;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+}
+
+.cv-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 14px 32px;
+    background-color: #0f172a;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.cv-button:hover {
+    background-color: #1e293b;
+    transform: translateY(-2px);
+}
+
+/* Contact */
+section p {
+    margin: 6px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #e5e7eb;
+    color: #374151;
+    font-size: 0.9em;
+}
