@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMBANGO | Portfolio Cybersécurité</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">SMBANGO<span>.CYBER</span></div>
+            <ul>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="https://github.com/samanthambango" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <span class="badge">Alternance 2025 / 2026</span>
+            <h1>Candidate en <br><span>Cybersécurité</span></h1>
+            <p>Spécialisée en automatisation des infrastructures (Ansible) et sécurisation des flux réseaux (pfSense, Nginx).</p>
+            <div class="hero-btns">
+                <a href="#projects" class="btn">Découvrir mes projets</a>
+                <a href="docs/CV_MBANGO.pdf" class="btn-cv" download>
+                    <i class="fas fa-download"></i> Télécharger mon CV
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2 class="section-title">Mes Réalisations</h2>
+        
+        <div class="project-card">
+            <div class="project-img">
+                <img src="docs/schema_reseau.png" alt="Architecture Lab">
+            </div>
+            <div class="project-info">
+                <h3>Automation & Security Lab</h3>
+                <p>Mise en place d'une infrastructure virtualisée complète. Ce projet démontre ma capacité à isoler des services critiques via une DMZ et à industrialiser la sécurité système.</p>
+                
+                <ul class="project-points">
+                    <li><i class="fas fa-check-circle"></i> Segmentation réseau via <strong>pfSense</strong></li>
+                    <li><i class="fas fa-check-circle"></i> Reverse Proxy <strong>Nginx</strong> avec Hardening HTTP</li>
+                    <li><i class="fas fa-check-circle"></i> Automatisation <strong>Ansible</strong> (Playbooks idempotents)</li>
+                </ul>
+
+                <div class="tags">
+                    <span>Ansible</span>
+                    <span>Nginx</span>
+                    <span>pfSense</span>
+                    <span>Debian</span>
+                    <span>IaC</span>
+                </div>
+                <a href="https://github.com/samanthambango/Cyber-Lab-Ansible/tree/main/ansible" target="_blank" class="btn-link">Voir le code source <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title">Expertise Technique</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <h4>Infrastructure as Code</h4>
+                    <p>Ansible, YAML, Jinja2 Templates</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-shield-halved"></i>
+                    <h4>Sécurité Réseau</h4>
+                    <p>Firewalling, Reverse Proxy, DMZ</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-server"></i>
+                    <h4>Systèmes</h4>
+                    <p>Linux (Debian), Windows Server (AD)</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-network-wired"></i>
+                    <h4>Services</h4>
+                    <p>DNS, DHCP, SSH, HTTP/S</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container">
+        <div class="contact-card">
+            <h2 class="section-title">Discutons de mon alternance</h2>
+            <p>Je suis disponible immédiatement pour échanger sur mes compétences et mes projets.</p>
+            <div class="contact-links">
+                <a href="mailto:mbangosamantha@gmail.com" class="contact-btn">
+                    <i class="fas fa-envelope"></i> Envoyer un Email
+                </a>
+                <a href="https://linkedin.com/in/samantha-mbango-5b6012323" target="_blank" class="contact-btn linkedin">
+                    <i class="fab fa-linkedin"></i> Profil LinkedIn
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - SMBANGO | Réalisé avec passion pour la Cybersécurité</p>
+    </footer>
+
+</body>
+</html>
